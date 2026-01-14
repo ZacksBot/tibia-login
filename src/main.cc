@@ -679,8 +679,6 @@ int main(int argc, const char **argv){
 	LOG("Server type:         \"%s\"", g_Config.ServerType);
 	LOG("Server version:      \"%s\"", g_Config.ServerVersion);
 	LOG("Client version:      \"%s\"", g_Config.ClientVersion);
-	LOG("MOTD:                \"%s\"", g_Config.Motd);
-
 
 	{	// NOTE(fusion): Print MOTD preview with escape codes.
 		char MotdPreview[30];
